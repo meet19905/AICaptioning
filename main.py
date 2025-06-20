@@ -239,14 +239,15 @@ def main():
                             # Create a nice formatted output
                             st.markdown(f"""
                             <div style="
-                                background-color: #f0f2f6;
+                                background-color: white;
+                                color: black;
                                 padding: 20px;
                                 border-radius: 10px;
                                 border-left: 5px solid #1f77b4;
                                 margin: 10px 0;
                             ">
-                                <h4 style="margin-top: 0; color: #1f77b4;">🎯 AI Generated Caption:</h4>
-                                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0;">{response}</p>
+                                <h4 style="margin-top: 0; color: #000000;">🎯 AI Generated Caption:</h4>
+                                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0; color: black;">{response}</p>
                             </div>
                             """, unsafe_allow_html=True)
                             
