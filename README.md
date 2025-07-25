@@ -45,6 +45,3 @@ Easy deployment options:
 - Environment variables for API keys
 - No data storage or logging
 - Secure API communications
-
-Built with ❤️ for the developer community
-"""
